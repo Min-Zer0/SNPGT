@@ -5,7 +5,7 @@ The rapid development of sequencing technology and dramatic drop in the cost hav
 
 ## 📘 Table of Contents
 
-- Change Log
+- [Change Log](##🔍-Change-Log)
 - Background
 - Installation
 - Usage
@@ -32,6 +32,6 @@ The example-data files are already included in the [release package](https://git
 You can also get the exmample data from source code. Download example-data.tgz and extract data with `tar zxvf example-data.tgz`.
 
 ## 👥 Contacts
-Jie Qiu (qiujie@shnu.edu.cn)
-Min Zhu ()
+Jie Qiu (qiujie@shnu.edu.cn)  
+Min Zhu ()  
 Jiaxin (jxchen1217@gmail.com)
