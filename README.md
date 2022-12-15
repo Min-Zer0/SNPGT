@@ -22,4 +22,16 @@ The WinSNPGT program was developed to ensure that the genotypes uploaded by user
 
 
 ## 🌟 Installation
-Download the release package and unzip to your working directory.
+Download the [release package](https://github.com/JessieChen7/WinSNPGT/archive/refs/heads/main.zip) and unzip to your working directory.
+
+## 🌟 Usage
+
+## 🔍 Data
+The example-data files are already included in the [release package](https://github.com/JessieChen7/WinSNPGT/archive/refs/heads/main.zip),
+
+You can also get the exmample data from source code. Download example-data.tgz and extract data with `tar zxvf example-data.tgz`.
+
+## 👥 Contacts
+Jie Qiu (qiujie@shnu.edu.cn)
+Min Zhu ()
+Jiaxin (jxchen1217@gmail.com)
