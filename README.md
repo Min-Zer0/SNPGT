@@ -5,7 +5,7 @@ The rapid development of sequencing technology and dramatic drop in the cost hav
 
 ## 📘 Table of Contents
 
-- [Change Log](##🔍-Change-Log)
+- Change Log
 - Background
 - Installation
 - Usage
