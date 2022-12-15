@@ -5,21 +5,21 @@ The rapid development of sequencing technology and dramatic drop in the cost hav
 
 ## 📘 Table of Contents
 
-- Change Log
 - Background
+- Change Log
 - Installation
 - Usage
 - Data
+- Frequently Asked Questions
 - Contacts
-
-## 🔍 Change Log
-- [Version 1.0](https://github.com/JessieChen7/WinSNPGT) -First version released on January, 1st, 2023
 
 ## 🧾 Background
 We have developed a phenotype prediction platform, **[CropGStools](http://iagr.genomics.cn/)**, which contains multiple high-quality datasets from important crops such as rice, maize and so on. These datasets were used as training sets to build models for phenotype prediction. Users can upload genotypes of their own samples to the platform for online phenotype prediction.
 
 The WinSNPGT program was developed to ensure that the genotypes uploaded by users match those in the training set for modeling so that bias in the prediction results can be avoided. Users can run this program on the windows system to realize the whole process from sequencing files to getting genotypes by simple operation, which is very friendly for people who have little experience in linux operation.
 
+## 🔍 Change Log
+- [Version 1.0](https://github.com/JessieChen7/WinSNPGT) -First version released on January, 1st, 2023
 
 ## 🌟 Installation
 Download the [release package](https://github.com/JessieChen7/WinSNPGT/archive/refs/heads/main.zip) and unzip to your working directory.
@@ -53,20 +53,24 @@ Here are the running steps:
 
 The output format is like:
 
-\#CHROM|POS|Line1|Line3|line2
----|---|---|---|---
-1|1077|T|T|T
-1|12127|G|G|G
-...|...|...|...|...
-12|27007979|C|A|NA
-12|27008036|T|T|T
-...|...|...|...|...
+\#CHROM|POS|Line1|Line2
+---|---|---|---
+1|1077|T|T
+1|12127|G|G
+...|...|...|...
+10|1299332|T|A
+10|1299513|G|G
+...|...|...|...
+
 
 
 ## 🔍 Data
 The example-data files are already included in the [release package](https://github.com/JessieChen7/WinSNPGT/archive/refs/heads/main.zip),
 
-You can also get the exmample data from source code. Download example-data.tgz and extract data with `tar zxvf example-data.tgz`.
+You can also get the exmample data from source code. Download [example-data.tar.gz](https://github.com/JessieChen7/WinSNPGT/archive/refs/heads/example-data.tar.gz) and extract data with command `tar zxvf example-data.tar.gz`.
+
+## 💡 Frequently Asked Questions
+
 
 ## 👥 Contacts
 Jie Qiu (qiujie@shnu.edu.cn)  
