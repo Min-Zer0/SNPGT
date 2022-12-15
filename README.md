@@ -75,4 +75,4 @@ You can also get the exmample data from source code. Download [example-data.tar.
 ## 👥 Contacts
 Jie Qiu (qiujie@shnu.edu.cn)  
 Min Zhu ()  
-Jiaxin (jxchen1217@gmail.com)
+Jiaxin Chen (jxchen1217@gmail.com)
