@@ -46,16 +46,10 @@ Here are the running steps:
 4. Follow the instructions to move your raw sequencing data `(*.fastq.gz)` or `(*.fastq)` to the path: **. /Input_Fastq**
 5. Click Confirm
 6. Enter your project name which will be output file prefix
-7. Select the corresponding reads file and enter the sample name
+7. Select the corresponding reads files and enter the sample name
 8. If there are another samples to be genotyped, you can choose *Add more samples*
 9. After adding all samples to be genotyped and confirm the form is correct, you can choose *Finish adding samples*
 10. Enter the number of threads available to run the program
-
-The following step-by-step notes may help you more clearly understand the use of the program:
-
-
-
-https://github.com/JessieChen7/Image/blob/main/step1.png
 
 The output format is like:
 
@@ -68,6 +62,53 @@ The output format is like:
 10|1299513|G|G
 ...|...|...|...
 
+---
+The following step-by-step notes may help you more clearly understand the use of the program:
+
+\### step 1~2：Double-click to run the program `start.bat` and `start`
+![step1](https://github.com/JessieChen7/Image/blob/main/step1.png)
+
+\### step 3: Select the species of your samples to be genotyped
+![step2](https://github.com/JessieChen7/Image/blob/main/step2.png)
+
+\### step 4: Select the dataset corresponding to the model to be fitted
+![step3](https://github.com/JessieChen7/Image/blob/main/step3.png)
+
+\### step 5: Download the file  `(*.tar.gz)` 
+![step4](https://github.com/JessieChen7/Image/blob/main/step4.png)
+
+\### step 6: Move the download file to the path: **. /Reference_Genome** 
+![step5](https://github.com/JessieChen7/Image/blob/main/step5.png)
+
+\### step 7: Verify the downloaded files
+![step6](https://github.com/JessieChen7/Image/blob/main/step6.png)
+
+\### step 8: Move your raw sequencing data `(*.fastq.gz)` or `(*.fastq)` to the path: **. /Input_Fastq**
+![step7](https://github.com/JessieChen7/Image/blob/main/step7.png)
+
+\### step 9: Verify your raw sequencing data `(*.fastq.gz)` or `(*.fastq)`
+![step8](https://github.com/JessieChen7/Image/blob/main/step8.png)
+
+\### step 10: Enter your project name which will be output file prefix
+![step9](https://github.com/JessieChen7/Image/blob/main/step9.png)
+
+\### step 11~13: Select the corresponding reads files and enter the sample name
+![step10](https://github.com/JessieChen7/Image/blob/main/step10.png)
+
+\### step 14: If there are another samples to be genotyped, you can choose *Add more samples*
+![step11](https://github.com/JessieChen7/Image/blob/main/step11.png)
+
+\### step 15: After adding all samples to be genotyped and confirm the form is correct, you can choose *Finish adding samples*
+![step12](https://github.com/JessieChen7/Image/blob/main/step12.png)
+
+\### step 16: Enter the number of threads available to run the program
+![step13](https://github.com/JessieChen7/Image/blob/main/step13.png)
+
+\### step 17: Run the program
+![step14](https://github.com/JessieChen7/Image/blob/main/step14.png)
+
+\### step 18: Get the results
+![step15](https://github.com/JessieChen7/Image/blob/main/step15.png)
 
 
 ## 🔍 Data
