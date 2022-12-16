@@ -43,13 +43,19 @@ Here are the running steps:
 	2. Select the dataset corresponding to the model to be fitted
 		- After this step, the web page will provide a download link to the dataset files. Follow the instructions to download the file  `(*.tar.gz)` and move it to the path: **. /Reference_Genome** 
 3. Click Verification file
-4. Enter your project name which will be output file prefix
-5. Follow the instructions to move your raw sequencing data `(*.fastq.gz)` or `(*.fastq)` to the path: **. /Input_Fastq**
-6. Click Confirm
+4. Follow the instructions to move your raw sequencing data `(*.fastq.gz)` or `(*.fastq)` to the path: **. /Input_Fastq**
+5. Click Confirm
+6. Enter your project name which will be output file prefix
 7. Select the corresponding reads file and enter the sample name
 8. If there are another samples to be genotyped, you can choose *Add more samples*
 9. After adding all samples to be genotyped and confirm the form is correct, you can choose *Finish adding samples*
 10. Enter the number of threads available to run the program
+
+The following step-by-step notes may help you more clearly understand the use of the program:
+
+
+
+https://github.com/JessieChen7/Image/blob/main/step1.png
 
 The output format is like:
 
@@ -65,14 +71,12 @@ The output format is like:
 
 
 ## 🔍 Data
-The example-data files are already included in the [release package](https://github.com/JessieChen7/WinSNPGT/archive/refs/heads/main.zip),
-
-You can also get the exmample data from source code. Download [example-data.tar.gz](https://github.com/JessieChen7/WinSNPGT/archive/refs/heads/example-data.tar.gz) and extract data with command `tar zxvf example-data.tar.gz`.
+The example-data files are not included in the release package, you can download [example-data.tar.gz](https://github.com/JessieChen7/WinSNPGT/archive/refs/heads/example-data.tar.gz) and extract data with command `tar zxvf example-data.tar.gz`.
 
 ## 💡 Frequently Asked Questions
 
 
 ## 👥 Contacts
 Jie Qiu (qiujie@shnu.edu.cn)  
-Min Zhu ()  
+Min Zhu (1185643615@qq.com)  
 Jiaxin Chen (jxchen1217@gmail.com)
