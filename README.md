@@ -7,9 +7,9 @@ The rapid development of sequencing technology and dramatic drop in the cost hav
 
 - Background
 - Change Log
+- Data
 - Installation
 - Usage
-- Data
 - Frequently Asked Questions
 - Contacts
 
@@ -20,6 +20,11 @@ The WinSNPGT program was developed to ensure that the genotypes uploaded by user
 
 ## 🔍 Change Log
 - [Version 1.0](https://github.com/JessieChen7/WinSNPGT) -First version released on January, 1st, 2023
+
+
+## 🔍 Data
+The example-data files are not included in the release package, you can download [example-data.tar.gz](https://github.com/JessieChen7/WinSNPGT/archive/refs/heads/example-data.tar.gz) and extract data with command `tar zxvf example-data.tar.gz`.
+
 
 ## 🌟 Installation
 Download the [release package](https://github.com/JessieChen7/WinSNPGT/archive/refs/heads/main.zip) and unzip to your working directory.
@@ -110,9 +115,6 @@ The following step-by-step notes may help you more clearly understand the use of
 \### step 18: Get the results
 ![step15](https://github.com/JessieChen7/Image/blob/main/step15.png)
 
-
-## 🔍 Data
-The example-data files are not included in the release package, you can download [example-data.tar.gz](https://github.com/JessieChen7/WinSNPGT/archive/refs/heads/example-data.tar.gz) and extract data with command `tar zxvf example-data.tar.gz`.
 
 ## 💡 Frequently Asked Questions
 
