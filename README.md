@@ -22,7 +22,7 @@ The WinSNPGT program was developed to ensure that the genotypes uploaded by user
 - [Version 1.0](https://github.com/JessieChen7/WinSNPGT) -First version released on June, 1st, 2023
 
 ## 🔍 Data
-The example-data files are not included in the release package, you can download [example-data.tar.gz](https://github.com/JessieChen7/WinSNPGT/archive/refs/heads/example-data.tar.gz) and extract data with command `tar zxvf example-data.tar.gz`.
+The example-data files are not included in the release package, you can download [example-data.tar.gz]([https://github.com/JessieChen7/WinSNPGT/archive/refs/heads/example-data.tar.gz](https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/41113238/exampledata.tar.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIYCQYOYV5JSSROOA/20230608/eu-west-1/s3/aws4_request&X-Amz-Date=20230608T071747Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=de46e1e9cede0e4cb31058c8e4658edc193cfb7de84da48d63fefe87bd91f420)) and extract data with command `tar zxvf example-data.tar.gz`.
 
 ## 🌟 Installation
 Download the [release package](https://github.com/JessieChen7/WinSNPGT/archive/refs/heads/main.zip) and unzip to your working directory.
