@@ -153,7 +153,17 @@ If the way of reading excel table has been chosen, you can directly skip to step
 ![Condition3_Done](https://github.com/JessieChen7/Image/blob/main/Condition3_Done.png)
 
 
+
 ## 💡 Frequently Asked Questions
+If there are some errors reported during the running of the program, please refer to the following scenarios to solve the problem:
+
+1. Only **English** is allowed in the **path where winSNPGT is installed**.
+2. When you start the program for the first time, the web interface may fail to open. This is because the background program has not yet been refreshed. If the background program cannot be started for a long time, you can try to **close the background and foreground programs and restart `WinSNPGT`**.
+3. During the running of winSNPGT, the **background program is not allowed to be closed**.
+4. If you chose the way to read excel table, you must **save and close the table after filling it**, which means it cannot be kept open.
+5. If you fill in the wrong information on the web page, you can **refresh and refill it before clicking the *Run* button**, and there is no need to repeat moving files steps.
+
+The above are some possible causes of errors, if there are any other problems, welcome to contact us.
 
 ## 👥 Contacts
 Jie Qiu (qiujie@shnu.edu.cn)  
