@@ -72,70 +72,84 @@ The output format is like:
 ---
 The following step-by-step notes may help you more clearly understand the use of the program:
 
-\### step 1: Install WinSNPGT
+\### **step 1**: Install WinSNPGT  
 ![step0_Install](https://github.com/JessieChen7/Image/blob/main/step0_Install.png)
+
 After the installation a WinSNPGT folder will be created and a welcome interface will pop up.
+
 ![step1_cd](https://github.com/JessieChen7/Image/blob/main/step1_cd.png)
 
-\### step 2：Double-click to run the program `WinSNPGT`
-![step2_runWinSNPGT](https://github.com/JessieChen7/Image/blob/main/step2_runWinSNPGT.png)
+\### **step 2**：Double-click to run the program `WinSNPGT`  
+![step2_runWinSNPGT](https://github.com/JessieChen7/Image/blob/main/step2_runWinSNPGT.png)  
 When the program starts running, a web pop-up will appear in the default browser and there will also be a window running as a background program, do not close it.
+
 ![step3_program](https://github.com/JessieChen7/Image/blob/main/step3_program.png)
 
-\### step 3: Select the species of your samples to be genotyped
+\### **step 3**: Select the species of your samples to be genotyped  
 ![step4_select_species](https://github.com/JessieChen7/Image/blob/main/step4_select_species.png)
 
-\### step 4: Select the dataset corresponding to the model to be fitted
+\### **step 4**: Select the dataset corresponding to the model to be fitted  
 ![step5_select_the_dataset](https://github.com/JessieChen7/Image/blob/main/step5_select_the_dataset.png)
 
-\### step 5: Download the file  `(*.tar.gz)` 
+\### **step 5**: Download the file  `(*.tar.gz)`   
 ![step6_download_RG_NEEDMODIFIED](https://github.com/JessieChen7/Image/blob/main/step6_download_RG_NEEDMODIFIED.png)
 
-\### step 6: Move the downloaded file to the path: **./01.Reference_Genome** 
+\### **step 6**: Move the downloaded file to the path: **./01.Reference_Genome**  
 ![step7_move_RG](https://github.com/JessieChen7/Image/blob/main/step7_move_RG.png)
 
-\### step 7: Verify the downloaded files
+\### **step 7**: Verify the downloaded files  
 ![step8_verify_RG_NEEDMODIFIED](https://github.com/JessieChen7/Image/blob/main/step8_verify_RG_NEEDMODIFIED.png)
+
 Only if there are no errors in the downloaded files, an alert box will appear like this, click anywhere to continue.
+
 ![Condition1_verify_RG_OK](https://github.com/JessieChen7/Image/blob/main/Condition1_verify_RG_OK.png)
 
-\### step 8: Select the way to read raw reads files
+\### **step 8**: Select the way to read raw reads files  
 Users can choose the way to manually select raw reads files in the interface.
+
 ![step9_manually_select](https://github.com/JessieChen7/Image/blob/main/step9_manually_select.png)
+
 Or choose to automatically read raw reads files after filling table, which is recommended when there are many samples.
+
 ![step9_auto_excel](https://github.com/JessieChen7/Image/blob/main/step9_auto_excel.png)
 
-\### step 9: Move your raw sequencing data `(*.fastq.gz)` or `(*.fastq)` to the path: **./02.Input_Fastq**
+\### **step 9**: Move your raw sequencing data `(*.fastq.gz)` or `(*.fastq)` to the path: **./02.Input_Fastq**
 ![step10_move_fastq](https://github.com/JessieChen7/Image/blob/main/step10_move_fastq.png)
+
 If the way of reading excel table has been chosen, the `Sample.table.xls` need to be filled.
+
 ![step10_fill_excel](https://github.com/JessieChen7/Image/blob/main/step10_fill_excel.png)
 
-\### step 10: Verify your raw sequencing data `(*.fastq.gz)` or `(*.fastq)`
+\### **step 10**: Verify your raw sequencing data `(*.fastq.gz)` or `(*.fastq)`
 ![step11_confirm_manually](https://github.com/JessieChen7/Image/blob/main/step11_confirm_manually.png)
+
 ![step11_confirm_auto](https://github.com/JessieChen7/Image/blob/main/step11_confirm_auto.png)
+
 Only if there are no errors in the files, the interface will look like this: 
+
 ![Condition2_verify_fastq_OK](https://github.com/JessieChen7/Image/blob/main/Condition2_verify_fastq_OK.png)
+
 If the way of reading excel table has been chosen, you can directly skip to step15.
 
-\### step 11: Enter your project name which will be output file prefix
+\### **step 11**: Enter your project name which will be output file prefix
 ![step12_project_name](https://github.com/JessieChen7/Image/blob/main/step12_project_name.png)
 
-\### step 12: Select the corresponding reads files and enter the sample name
+\### **step 12**: Select the corresponding reads files and enter the sample name
 ![step13_reads](https://github.com/JessieChen7/Image/blob/main/step13_reads.png)
 
-\### step 13: If there are another samples to be genotyped, you can choose *Yes* and repeat the step 12
+\### **step 13**: If there are another samples to be genotyped, you can choose *Yes* and repeat the step 12
 ![step14_adding](https://github.com/JessieChen7/Image/blob/main/step14_adding.png)
 
-\### step 14: After adding all samples to be genotyped and confirm the form is correct, you can choose *Finish adding samples*
+\### **step 14**: After adding all samples to be genotyped and confirm the form is correct, you can choose *Finish adding samples*
 ![step15_finish_adding](https://github.com/JessieChen7/Image/blob/main/step15_finish_adding.png)
 
-\### step 15: Enter the number of threads available to run the program
+\### **step 15**: Enter the number of threads available to run the program
 ![step16_threads](https://github.com/JessieChen7/Image/blob/main/step16_threads.png)
 
-\### step 16: Run the program
+\### **step 16**: Run the program
 ![step17_run](https://github.com/JessieChen7/Image/blob/main/step17_run.png)
 
-\### step 17: Get the results
+\### **step 17**: Get the results
 ![Condition3_Done](https://github.com/JessieChen7/Image/blob/main/Condition3_Done.png)
 
 
