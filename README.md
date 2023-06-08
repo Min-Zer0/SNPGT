@@ -14,17 +14,15 @@ The rapid development of sequencing technology and dramatic drop in the cost hav
 - Contacts
 
 ## 🧾 Background
-We have developed a phenotype prediction platform, **[CropGStools](http://iagr.genomics.cn/)**, which contains multiple high-quality datasets from important crops such as rice, maize and so on. These datasets were used as training sets to build models for phenotype prediction. Users can upload genotypes of their own samples to the platform for online phenotype prediction.
+We have developed a phenotype prediction platform, **[CropGStools](http://iagr.genomics.cn/gstools/#/)**, which contains multiple high-quality datasets from important crops such as rice, maize and so on. These datasets were used as training sets to build models for phenotype prediction. Users can upload genotypes of their own samples to the platform for online phenotype prediction.
 
 The WinSNPGT program was developed to ensure that the genotypes uploaded by users match those in the training set for modeling so that bias in the prediction results can be avoided. Users can run this program on the windows system to realize the whole process from sequencing files to getting genotypes by simple operation, which is very friendly for people who have little experience in linux operation.
 
 ## 🔍 Change Log
-- [Version 1.0](https://github.com/JessieChen7/WinSNPGT) -First version released on January, 1st, 2023
-
+- [Version 1.0](https://github.com/JessieChen7/WinSNPGT) -First version released on June, 1st, 2023
 
 ## 🔍 Data
 The example-data files are not included in the release package, you can download [example-data.tar.gz](https://github.com/JessieChen7/WinSNPGT/archive/refs/heads/example-data.tar.gz) and extract data with command `tar zxvf example-data.tar.gz`.
-
 
 ## 🌟 Installation
 Download the [release package](https://github.com/JessieChen7/WinSNPGT/archive/refs/heads/main.zip) and unzip to your working directory.
@@ -32,33 +30,37 @@ Download the [release package](https://github.com/JessieChen7/WinSNPGT/archive/r
 ## 🌟 Usage
 There are three subfolders and two files after the package is unziped.
 
-- **Input_Fastq**
-- **Reference_Genome**
-- **sys**
-- `start.bat`
-- `start`
+- **00.Make_RefGenome**
+- **01.Reference_Genome**
+- **02.Input_Fastq**
+- `SNPGT-bulid`
+- `WinSNPGT`
 
-To run WinSNPGT locally, you need to run the main program via `start.bat` and then visualize your operation on the `start` local web platform.
+P.S.：If your system is set to show hidden items, there is also a hidden subfolder **sys**
+
+To run WinSNPGT locally, you need to run the main program via `WinSNPGT` and then visualize your operation on the default browser.
 
 Here are the running steps:
 
-1. Double-click to run the program `start.bat`
-2. Double click to open `start`
-	1. Select the species of your samples to be genotyped
-	2. Select the dataset corresponding to the model to be fitted
-		- After this step, the web page will provide a download link to the dataset files. Follow the instructions to download the file  `(*.tar.gz)` and move it to the path: **. /Reference_Genome** 
-3. Click Verification file
-4. Follow the instructions to move your raw sequencing data `(*.fastq.gz)` or `(*.fastq)` to the path: **. /Input_Fastq**
-5. Click Confirm
-6. Enter your project name which will be output file prefix
-7. Select the corresponding reads files and enter the sample name
-8. If there are another samples to be genotyped, you can choose *Add more samples*
-9. After adding all samples to be genotyped and confirm the form is correct, you can choose *Finish adding samples*
-10. Enter the number of threads available to run the program
+1. Double-click to run the program `WinSNPGT`
+2. Select the species of your samples to be genotyped
+3. Select the dataset corresponding to the model to be fitted
+	- After this step, the web page will provide a download link to the dataset files. Follow the instructions to download the file  `(*.tar.gz)` and move it to the path: **./01.Reference_Genome** 
+4. Click *Verify file*
+5. Select the way to read raw reads files 
+6. Follow the instructions to move your raw sequencing data `(*.fastq.gz)` or `(*.fastq)` to the path: **./02.Input_Fastq**
+	- if you select the way of reading excel table, you need to fill the `Sample.table.xls` in  **./02.Input_Fastq**
+7. Click *Confirm*
+	- if you select the way of reading excel table, you can skip to step 12 after clicking *Confirm* 
+8. Enter your project name which will be output file prefix
+9. Select the corresponding reads files and enter the sample name
+10. If there are another samples to be genotyped, you can choose *Yes*
+11. After adding all samples to be genotyped and confirm the form is correct, you can choose *Finish adding samples*
+12. Enter the number of threads available to run the program
 
 The output format is like:
 
-\#CHROM|POS|Line1|Line2
+\#CHROM|POS|Line1|line2
 ---|---|---|---
 1|1077|T|T
 1|12127|G|G
