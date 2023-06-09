@@ -92,13 +92,13 @@ When the program starts running, a web pop-up will appear in the default browser
 ![step5_select_the_dataset](https://github.com/JessieChen7/Image/blob/main/step5_select_the_dataset.png)
 
 \### **step 5**: Download the file  `(*.tar.gz)`   
-![step6_download_RG_NEEDMODIFIED](https://github.com/JessieChen7/Image/blob/main/step6_download_RG_NEEDMODIFIED.png)
+![step6_download_RG](https://github.com/JessieChen7/Image/blob/main/step6_download_RG.png)
 
 \### **step 6**: Move the downloaded file to the path: **./01.Reference_Genome**  
 ![step7_move_RG](https://github.com/JessieChen7/Image/blob/main/step7_move_RG.png)
 
 \### **step 7**: Verify the downloaded files  
-![step8_verify_RG_NEEDMODIFIED](https://github.com/JessieChen7/Image/blob/main/step8_verify_RG_NEEDMODIFIED.png)
+![step8_verify_RG](https://github.com/JessieChen7/Image/blob/main/step8_verify_RG.png)
 
 Only if there are no errors in the downloaded files, an alert box will appear like this, click anywhere to continue.
 
