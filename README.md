@@ -26,6 +26,7 @@ The WinSNPGT program was developed to ensure that the genotypes uploaded by user
 The example-data files are not included in the release package, you can download [example-data.tar.gz](https://figshare.com/articles/dataset/WinSNPGT_example_data/23365061) and extract data with command `tar zxvf example-data.tar.gz`.
 
 ## 🌟 Installation
+Download and install [java 8](https://www.oracle.com/java/technologies/downloads/#java8-windowshttps://www.oracle.com/java/technologies/downloads/#java8-windows).
 Download the [release package](https://github.com/JessieChen7/WinSNPGT/raw/installation_package/WinSNPGT.exe) and unzip to your working directory.
 
 ## 🌟 Usage
