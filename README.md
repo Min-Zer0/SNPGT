@@ -29,9 +29,10 @@ The example-data files are not included in the release package, you can download
 The species of the example-data files is *Oryza sativa*, you can select the rice-related dataset in the toolkit to complete the genotyping.
 
 ## 🌟 Installation
-- Download and install [java 8](https://www.oracle.com/java/technologies/downloads/#java8-windows).
 - Download the [release package](https://github.com/JessieChen7/WinSNPGT/raw/installation_package/WinSNPGT.exe) and unzip to your working directory.
-
+- Download and install [java 8](https://www.oracle.com/java/technologies/downloads/#java8-windows).
+  👉 __[release package](https://github.com/JessieChen7/WinSNPGT/raw/installation_package/WinSNPGT.exe)__
+  
 ## 🌟 Usage
 There are three subfolders and two files after the package is unziped.
 
