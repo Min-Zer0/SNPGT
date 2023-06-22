@@ -135,9 +135,12 @@ def main_analysis(species,reference,Samples_list,project):
 		confirm = actions('Run program?', ['Run'],
 			help_text='There will be a 1-2 hour waiting time.')
 		put_markdown('Program `%s`ing ...' % confirm)
-
 		put_processbar('bar2',0.2, label= "Alignment...");
 		for i in Samples_list:
+			for key, value in i.items():
+				if key != "Sample":
+					if value.endswith('.gz'):
+						i[key] = value[:-3]
 			Alignment(alignment_reference_dir,species,i['Sample'],i['Read1'],i['Read2'],thread)
 		set_processbar('bar2', 0.45, label="Merging & Removing PCR duplication ...")
 		Merge_rmPCRdup(project,thread)
