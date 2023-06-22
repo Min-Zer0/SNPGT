@@ -24,7 +24,7 @@ The WinSNPGT program was developed to ensure that the genotypes uploaded by user
 - [Version 1.0](https://github.com/JessieChen7/WinSNPGT) -First version released on June, 1st, 2023
 
 ## 🔍 Data
-The example-data files are not included in the release package, you can download [example-data.tar.gz](https://figshare.com/articles/dataset/WinSNPGT_example_data/23365061) and extract data with command `tar zxvf example-data.tar.gz`.
+The example-data files are not included in the release package, you can download [example-data.tar.gz](https://figshare.com/articles/dataset/WinSNPGT_example_data/23365061).
 
 ## 🌟 Installation
 - Download and install [java 8](https://www.oracle.com/java/technologies/downloads/#java8-windows).
