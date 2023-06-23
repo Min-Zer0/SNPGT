@@ -66,14 +66,15 @@ Here are the running steps:
 
 The output format is like:
 
-\#CHROM|POS|Line1|line2
----|---|---|---
-1|1077|T|T
-1|12127|G|G
-...|...|...|...
-10|1299332|T|A
-10|1299513|G|G
-...|...|...|...
+\#CHROM|POS|Line1
+---|---|---
+Chr1|128960|A
+Chr1|133137|C
+...|...|...
+Chr12|321216|A
+Chr12|364257|A
+Chr12|364755|.
+...|...|...
 
 ---
 The following step-by-step notes may help you more clearly understand the use of the program:
