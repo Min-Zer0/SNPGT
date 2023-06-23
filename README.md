@@ -24,9 +24,11 @@ The WinSNPGT toolkit was developed to ensure that the genotypes uploaded by user
 - [Version 1.0](https://github.com/JessieChen7/WinSNPGT) -First version released on June, 1st, 2023
 
 ## 🔍 Data
-The example-data files are not included in the release package, you can download [example-data.tar.gz](https://figshare.com/articles/dataset/WinSNPGT_example_data/23365061).
+- The example-data files are not included in the release package, you can download [example-data.tar.gz](https://figshare.com/articles/dataset/WinSNPGT_example_data/23365061).
 
-The species of the example-data files is *Oryza sativa*, you can select the rice-related dataset in the toolkit to complete the genotyping.
+	The species of the example-data files is *Oryza sativa*, you can select the rice-related dataset in the toolkit to complete the genotyping.
+
+- Java8 are not included in the release package, You can install it yourself by referring to the method in Installation.
 
 ## 🌟 Installation
 - Download the [release package](https://github.com/JessieChen7/WinSNPGT/raw/installation_package/WinSNPGT.exe) and unzip to your working directory.
