@@ -32,7 +32,7 @@ The WinSNPGT toolkit was developed to ensure that the genotypes uploaded by user
 
 ## 🌟 Installation
 - Download the [release package](https://github.com/JessieChen7/WinSNPGT/raw/installation_package/WinSNPGT.exe) and unzip to your working directory.
-- Download and install [java 8](https://www.oracle.com/java/technologies/downloads/#java8-windows).
+- Download and install [jdk-8u381-windows-x64.exe](https://www.oracle.com/java/technologies/downloads/#java8-windows).
   
 ## 🌟 Usage
 There are three subfolders and two files after the package is unziped.
