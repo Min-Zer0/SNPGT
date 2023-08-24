@@ -1,5 +1,10 @@
 # ___WinSNPGT: Genotyping of specified SNP sites on windows system___
 
+## 📢 News
+winSNPGT version 2.0 has been successfully released, more friendly and convenient, welcome to use!
+
+Click the [here](https://github.com/Min-Zer0/WinSNPGT) to jump
+
 ## 👉 Latest [release package](https://github.com/JessieChen7/WinSNPGT/raw/installation_package/WinSNPGT.exe)
 
 ## 💡 General Introduction
@@ -22,6 +27,7 @@ The WinSNPGT toolkit was developed to ensure that the genotypes uploaded by user
 
 ## 🔍 Change Log
 - [Version 1.0](https://github.com/JessieChen7/WinSNPGT) -First version released on June, 1st, 2023
+- [Version 2.0](https://github.com/Min-Zer0/WinSNPGT) - Second version released on August, 24th, 2023
 
 ## 🔍 Data
 - The example-data files are not included in the release package, you can download [example-data.tar.gz](https://figshare.com/articles/dataset/WinSNPGT_example_data/23365061).
