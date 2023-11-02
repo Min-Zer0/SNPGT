@@ -1,9 +1,11 @@
-# ___WinSNPGT: Genotyping of specified SNP sites on windows system___
+# ___WinSNPGT: Genotyping of specified SNP sites on Windows system___
 
 ## 📢 News
 winSNPGT version 2.0 has been successfully released, more friendly and convenient, welcome to use!
 
 Click the [here](https://github.com/Min-Zer0/WinSNPGT) to jump
+## 🧰 Relevant Software
+**[LinSNPGT](https://github.com/JessieChen7/LinSNPGT)**: Genotyping of specified SNP sites on Linux system
 
 ## 👉 Latest [release package](https://github.com/JessieChen7/WinSNPGT/raw/installation_package/WinSNPGT.exe)
 
